@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ToDoAppMDB/static/css/main.2fb652a7.chunk.css",
+    "main.js": "/ToDoAppMDB/static/js/main.ed78dfef.chunk.js",
+    "main.js.map": "/ToDoAppMDB/static/js/main.ed78dfef.chunk.js.map",
+    "runtime~main.js": "/ToDoAppMDB/static/js/runtime~main.718384de.js",
+    "runtime~main.js.map": "/ToDoAppMDB/static/js/runtime~main.718384de.js.map",
+    "static/css/2.d1f75003.chunk.css": "/ToDoAppMDB/static/css/2.d1f75003.chunk.css",
+    "static/js/2.4a0420aa.chunk.js": "/ToDoAppMDB/static/js/2.4a0420aa.chunk.js",
+    "static/js/2.4a0420aa.chunk.js.map": "/ToDoAppMDB/static/js/2.4a0420aa.chunk.js.map",
+    "index.html": "/ToDoAppMDB/index.html",
+    "precache-manifest.77b5f1150e4b3f8f05a8558a34008ed2.js": "/ToDoAppMDB/precache-manifest.77b5f1150e4b3f8f05a8558a34008ed2.js",
+    "service-worker.js": "/ToDoAppMDB/service-worker.js",
+    "static/css/2.d1f75003.chunk.css.map": "/ToDoAppMDB/static/css/2.d1f75003.chunk.css.map",
+    "static/css/main.2fb652a7.chunk.css.map": "/ToDoAppMDB/static/css/main.2fb652a7.chunk.css.map",
+    "static/media/mdb.scss": "/ToDoAppMDB/static/media/arrow_right.8ef6a08c.svg"
+  }
+}
