@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/todoappmdb/static/css/main.ccb8cf78.chunk.css",
-    "main.js": "/todoappmdb/static/js/main.60caf6ef.chunk.js",
-    "main.js.map": "/todoappmdb/static/js/main.60caf6ef.chunk.js.map",
-    "runtime~main.js": "/todoappmdb/static/js/runtime~main.95db24c0.js",
-    "runtime~main.js.map": "/todoappmdb/static/js/runtime~main.95db24c0.js.map",
-    "static/css/2.83c1257e.chunk.css": "/todoappmdb/static/css/2.83c1257e.chunk.css",
-    "static/js/2.4a0420aa.chunk.js": "/todoappmdb/static/js/2.4a0420aa.chunk.js",
-    "static/js/2.4a0420aa.chunk.js.map": "/todoappmdb/static/js/2.4a0420aa.chunk.js.map",
-    "index.html": "/todoappmdb/index.html",
-    "precache-manifest.611783851395891f65094351ac38b7b4.js": "/todoappmdb/precache-manifest.611783851395891f65094351ac38b7b4.js",
-    "service-worker.js": "/todoappmdb/service-worker.js",
-    "static/css/2.83c1257e.chunk.css.map": "/todoappmdb/static/css/2.83c1257e.chunk.css.map",
-    "static/css/main.ccb8cf78.chunk.css.map": "/todoappmdb/static/css/main.ccb8cf78.chunk.css.map",
-    "static/media/mdb.scss": "/todoappmdb/static/media/arrow_right.8ef6a08c.svg"
+    "main.css": "/ToDoAppMDB/static/css/main.976a1253.chunk.css",
+    "main.js": "/ToDoAppMDB/static/js/main.ed78dfef.chunk.js",
+    "main.js.map": "/ToDoAppMDB/static/js/main.ed78dfef.chunk.js.map",
+    "runtime~main.js": "/ToDoAppMDB/static/js/runtime~main.718384de.js",
+    "runtime~main.js.map": "/ToDoAppMDB/static/js/runtime~main.718384de.js.map",
+    "static/css/2.d1f75003.chunk.css": "/ToDoAppMDB/static/css/2.d1f75003.chunk.css",
+    "static/js/2.4a0420aa.chunk.js": "/ToDoAppMDB/static/js/2.4a0420aa.chunk.js",
+    "static/js/2.4a0420aa.chunk.js.map": "/ToDoAppMDB/static/js/2.4a0420aa.chunk.js.map",
+    "index.html": "/ToDoAppMDB/index.html",
+    "precache-manifest.01997a3684052da57eb8f85d156a3c73.js": "/ToDoAppMDB/precache-manifest.01997a3684052da57eb8f85d156a3c73.js",
+    "service-worker.js": "/ToDoAppMDB/service-worker.js",
+    "static/css/2.d1f75003.chunk.css.map": "/ToDoAppMDB/static/css/2.d1f75003.chunk.css.map",
+    "static/css/main.976a1253.chunk.css.map": "/ToDoAppMDB/static/css/main.976a1253.chunk.css.map",
+    "static/media/mdb.scss": "/ToDoAppMDB/static/media/arrow_right.8ef6a08c.svg"
   }
 }
