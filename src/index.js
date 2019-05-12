@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'mdbreact/dist/css/mdb.css';
+import "./assets/scss/mdb.scss";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

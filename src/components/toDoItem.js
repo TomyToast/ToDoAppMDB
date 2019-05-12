@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import { MDBAnimation,
+         MDBCard,
+         MDBCardBody,
+         MDBCardTitle,
+         MDBCardText,
+         MDBBtn } from "mdbreact";
 
 class ToDoItem extends Component {
 
@@ -6,11 +12,19 @@ class ToDoItem extends Component {
         const { list } = this.props
         const elements = list.map( (element, ind) => {
             return (
-                <li key={element.key}>
-                    <div>
-                        {`Task number ${ind + 1} ${element.text}`}
-                    </div>
-                </li>
+                <MDBAnimation type="pulse" key={element.key}>
+                    <MDBCard style={{ width: "22rem" }}>
+                    <MDBCardBody className="grey mb-1">
+                        <MDBCardTitle className="cardTitle">
+                            {`Task number ${ind + 1}`}
+                        </MDBCardTitle>
+                        <MDBCardText className="cardText">
+                            {`${element.text}`}
+                        </MDBCardText>
+                        <MDBBtn color="grey" href="#">More...</MDBBtn>
+                    </MDBCardBody>
+                    </MDBCard>
+                </MDBAnimation>
             )
         })
       return (

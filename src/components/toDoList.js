@@ -19,10 +19,10 @@ class ToDoList extends Component {
                     placeholder="Add note here..."
                     onChange={handleInput}
                 />
-                <button type="submit" name="submit">Add note</button>
+                <button className="btn btn-sm success-color" type="submit" name="submit">Add note</button>
             </form>
-            <button onClick={removeNote} name="remove">Remove</button>
-            <button onClick={clearNote} name="clear">Clear</button>
+            <button className="btn btn-sm warning-color-dark" onClick={removeNote} name="remove">Remove</button>
+            <button className="btn btn-sm danger-color" onClick={clearNote} name="clear">Clear</button>
         </>
       );
     }

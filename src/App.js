@@ -2,18 +2,19 @@ import React, { Component } from 'react';
 import ToDoList from './components/toDoList';
 import ToDoItem from './components/toDoItem';
 import './App.css';
+import { MDBContainer } from "mdbreact";
+
 
 class App extends Component {
   constructor(props){
     super(props)
-    this.state={
+    this.state = {
       list: [],
       item: { key: '', text: '' }
     }
   }
 
   handleInput = (e) => {
-    console.log('works input here!');
     const itemText = e.target.value;
 
     this.setState({
@@ -27,7 +28,6 @@ class App extends Component {
     const newItem = this.state.item;
 
     if (newItem.text !== ''){
-      console.log(newItem)
       const items = [...this.state.list, newItem]
       this.setState({
         list: items,
@@ -41,7 +41,6 @@ class App extends Component {
   handleRemoveNote = (e) => {
     e.preventDefault();
     const { list } = this.state
-    console.log(list)
     if (list.length !== 0){
       list.pop();
       this.setState({
@@ -54,16 +53,23 @@ class App extends Component {
 
   handleClearNote = (e) => {
     e.preventDefault();
-    this.setState({
+    const { list } = this.state
+    if(list.length !== 0){
+      this.setState({
       list: []
     })
-    alert("All notes deleted");
+      alert("All Notes deleted");
+    } else {
+      alert("There is no Note to remove!");
+    }
   }
 
   render() {
     return (
-      <div className="App">
-        <ToDoList
+      <div className="App blue-grey lighten-5">
+        <MDBContainer>
+          <ToDoList
+          className="aqua-gradient"
           currentItem={this.state.item}
           handleInput={this.handleInput}
           addNote={this.handleAddNote}
@@ -73,6 +79,7 @@ class App extends Component {
         <ToDoItem
           list={this.state.list}
         />
+        </MDBContainer>
       </div>
     );
   }
